@@ -12,10 +12,10 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-setInterval(cb, 30000);
-
 let cb = () => {
     console.log("Interval");
 }
+
+setInterval(cb, 30000);
 
 console.log("Hello twitter!");
