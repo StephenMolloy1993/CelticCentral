@@ -9,8 +9,10 @@
   "author": "Stephen Molloy",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.2.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "simple-json-db": "^2.0.0",
     "twitter-api-v2": "^1.13.0"
   }
 }
